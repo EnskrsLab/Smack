@@ -1,9 +1,10 @@
-package com.example.smack
+package com.example.smack.Controller
 
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.smack.R
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
 
@@ -46,7 +47,7 @@ class CreateUserActivity : AppCompatActivity() {
         val savedB = b.toDouble() / 255
 
         avatarColor = "[$savedR, $savedG, $savedB, 1]"
-        
+
     }
 
     fun createUserClicked(view: View)
